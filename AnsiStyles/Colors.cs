@@ -1,6 +1,6 @@
 ﻿namespace AnsiStyles;
 
-public class Colors
+public static class Colors
 {
     public static string Reset => $"{Global.EscapeCode}[0m";
     public static ColorSet Foreground { get; } = new(ColorPlane.Foreground);
