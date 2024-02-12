@@ -68,7 +68,9 @@ You can add the compiled assembly to your projects by adding a reference to the 
 
 Contributing
 ----
-Feel free to contribute, just fork and clone the repository then commit and pull request only for the `dev` branch. 
+### Feel free to contribute  
+- Just fork and clone the repository
+- Then commit and pull request only for the `dev` branch. 
 
 Support
 ----
