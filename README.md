@@ -1,6 +1,6 @@
 <div align="center">
     <br>
-        <img src=".github/banner.png" alt="AnsiBanner" width=750 align="center">
+        <img src=".github/banner.png" alt="AnsiBanner" width=600 align="center">
 </div>
 
 <h2 align="center">AnsiStyles</h2>
