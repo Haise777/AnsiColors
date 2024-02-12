@@ -74,8 +74,8 @@ Contributing
 
 Support
 ----
-If you encouter a bug or would like to request a feature, [please submit an issue](https://github.com/Haise777/AnsiStyles/issues/new).  
-For any other question that is not related to bugs or feature, feel free to contact me.
+- If you encouter a bug or would like to request a feature, [please submit an issue](https://github.com/Haise777/AnsiStyles/issues/new).  
+- For any other question that is not related to bugs or feature, feel free to contact me.
 
 ---
 *AnsiStyles is released under [BSD 3-Clause license](https://opensource.org/license/bsd-3-clause/)*
