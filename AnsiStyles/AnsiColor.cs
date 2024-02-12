@@ -45,18 +45,21 @@ public class AnsiColor
 
     public override string ToString() => Code;
 
+    /// Concat two AnsiColor instances into a single object.
     public static AnsiColor operator +(AnsiColor first, AnsiColor then)
     {
         first.Code += then.Code;
         return first;
     }
 
+    /// Concat a common string with a AnsiColor object.
     public static AnsiColor operator +(AnsiColor first, string then)
     {
         first.Code += then;
         return first;
     }
 
+    /// Concat a common string before the AnsiColor code, thus the concatenated string will not be affected by it.
     public static AnsiColor operator +(string first, AnsiColor then)
     {
         then.Code = then.Code.Insert(0, first);
