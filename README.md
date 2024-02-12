@@ -13,11 +13,11 @@ Usage
 ----
 
 ```csharp
-var rs = Colors.Reset;
-var fc = Colors.Foreground;
-var purple = fc[129];
+var rs = StringStyle.Reset;
+var fc = StringStyle.Foreground;
+var prpl = fc[129];
 
-string text = $"This is {purple}purple{rs} and this is {fc[196]}red{rs}";
+string text = $"This is {prpl}purple{rs} and this is {fc[196]}red{rs}";
 Console.WriteLine(text); //Will print out 'text' with purple and red colored
 
 //Can also use some ANSI code for styling 
@@ -25,7 +25,7 @@ var boBlue = fc[21].Bold().Outline();
 Console.WriteLine(fc[70].Faint() + "some text" + $"{boBlue} bold outlined blue{rs}");
 
 //You can also concat it with regular strings
-var text2 = fc.Yellow + "This is yellow " + rs + purple + "and this is purple";
+var text2 = fc.Yellow + "This is yellow " + rs + prpl + "and this is purple";
 Console.WriteLine(text2);
 Console.WriteLine("Look, i'm still purple!");
 
@@ -34,7 +34,7 @@ Console.WriteLine("i'm normal now!"); //Or you can just print the reset out, els
                                       //will keep bleading in subsequent prints until it finds a reset
 
 //All of the above but for the background of the string
-var bc = Colors.Background;
+var bc = StringStyle.Background;
 Console.WriteLine(bc.White + fc.Black + "Black text with White highlighting" + rs);
     
 fc.ColorTest(); //prints out all the available colors codes
