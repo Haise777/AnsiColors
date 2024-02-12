@@ -1,16 +1,18 @@
 <div align="center">
     <br>
-        <img src=".github/banner.png" alt="[Banner image]" width=600 align="center">
+    <img src=".github/banner.png" alt="[Banner image]" width=600 align="center">
 </div>
 
 <h2 align="center">AnsiStyles</h2>
 <p align="center">This lightweight, simple library provides a easy and intuitive way for adding color to your console applications, allowing you to add multiple different colors and styles to the same string variable.</p>
 <p align="center">[shields] [shields] [shields] [shields]</p>
 
+<br>
+<br>
 <div align="center">
-        <img src=".github/example1.png" alt="[Example image]" width=1080 align="center">
-        <br>
+    <img src=".github/example1.png" alt="[Example image]" width=1080 align="center">
 </div>
+<br>
 
 Usage
 ----
