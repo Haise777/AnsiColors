@@ -5,6 +5,9 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>AnsiStyles</RootNamespace>
+        <Version>0.1.0</Version>
+        <Title>AnsiStyles Better Coloured Console Output</Title>
+        <Authors>Haise777</Authors>
     </PropertyGroup>
 
 </Project>

@@ -4,8 +4,8 @@
 </div>
 
 <h2 align="center">AnsiStyles</h2>
-<p align="center">[shields] [shields] [shields] [shields]</p>
 <p align="center">This lightweight, simple library provides a easy and intuitive way for adding color to your console applications, allowing you to add multiple different colors and styles to the same string variable.</p>
+<p align="center">[shields] [shields] [shields] [shields]</p>
 
 <p align="center">[image]</p>
 
@@ -46,30 +46,34 @@ Installation
 
 ### NuGet
 
-You can find it on nuget, yeah idwaoj oidawj podawi opdjwaop jdawop jdwapoij dpoawj dopwaj dwoa jpdawj opawjdpoawjpo
+The latest stable version is available on [NuGet](https://www.nuget.org/)
 
 ```bash
-dotnet install dwakodwa
+dotnet add package AnsiStyles
 ```
 
 ### From source
 
-Alternatively, you can easily build from source fol
+Alternatively, you can easily build from source if needed
 
 ```shell
 git clone https://github.com/Haise777/AnsiStyles
 cd AnsiStyles/AnsiStyles
-dotnet build --release
+dotnet build --configuration Release
+
+# Here you can find the compiled assembly file 'AnsiStyles'
+cd bin/Release/net6.0 
 ```
+You can add the compiled assembly to your projects by adding a reference to the assembly file, you can follow [this entry in a Microsoft article](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-add-reference#add-a-reference-to-an-assembly-that-isnt-in-a-project) for more information.
 
 Contributing
 ----
-djawdwioadwa  
-dwadwa
+Feel free to contribute, just fork and clone the repository then commit and pull request only for the `dev` branch. 
 
 Support
 ----
-If you need help you need help
+If you encouter a bug or would like to request a feature, [please submit an issue](https://github.com/Haise777/AnsiStyles/issues/new).  
+For any other question that is not related to bugs or feature, feel free to contact me.
 
 ---
 *AnsiStyles is released under [BSD 3-Clause license](https://opensource.org/license/bsd-3-clause/)*
