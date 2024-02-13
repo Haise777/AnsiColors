@@ -25,7 +25,7 @@ Installation
 
 ### NuGet
 
-The latest stable version is available on [NuGet](https://www.nuget.org/)
+The latest stable version is available on [NuGet](https://www.nuget.org/packages/AnsiStyles/)
 
 ```bash
 dotnet add package AnsiStyles
@@ -33,7 +33,7 @@ dotnet add package AnsiStyles
 
 ### From source
 
-Alternatively, you can easily build from source if needed
+Alternatively, you can easily build the package from source if needed
 
 ```shell
 git clone https://github.com/Haise777/AnsiStyles
@@ -48,6 +48,7 @@ You can add the compiled assembly to your projects by adding a reference to the 
 Usage
 ----
 
+Here's a simple code demonstrating all you need to know about the intended use case of this library.
 ```csharp
 var rs = StringStyle.Reset;
 var fc = StringStyle.Foreground;
