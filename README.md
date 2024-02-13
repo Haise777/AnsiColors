@@ -1,15 +1,21 @@
 <div align="center">
     <br>
-        <img src=".github/banner.png" alt="[Banner image]" width=600 align="center">
+    <img src=".github/banner.png" alt="[Banner image]" width=600 align="center">
 </div>
 
 <h2 align="center">AnsiStyles</h2>
-<p align="center">This lightweight, simple library provides a easy and intuitive way for adding color to your console applications, allowing you to add multiple different colors and styles to the same string variable.</p>
-<p align="center">[shields] [shields] [shields] [shields]</p>
-
+<h4 align="center">This lightweight, simple library provides a easy and intuitive way for adding color to your console applications, allowing you to add multiple different colors and styles to the same string variable.</h4>
 <div align="center">
-        <img src=".github/example1.png" alt="[Example image]" width=1080 align="center">
-        <br>
+  
+  <a href="">![Static Badge](https://img.shields.io/badge/.NET-6.0-%233502b8?style=flat-square)</a>
+  <a href="">![GitHub License](https://img.shields.io/github/license/Haise777/OPZBot?style=flat-square&color=%23a38802)</a>
+  
+</div>
+
+<br>
+<br>
+<div align="center">
+    <img src=".github/example1.png" alt="[Example image]" width=1080 align="center">
 </div>
 
 Usage
