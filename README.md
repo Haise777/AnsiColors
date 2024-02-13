@@ -25,7 +25,7 @@ Installation
 
 ### NuGet
 
-The latest stable version is available on [NuGet](https://www.nuget.org/packages/AnsiStyles/)
+The latest ~~stable~~ version is available on [NuGet](https://www.nuget.org/packages/AnsiStyles/)
 
 ```bash
 dotnet add package AnsiStyles
