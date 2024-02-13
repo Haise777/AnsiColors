@@ -5,7 +5,7 @@ namespace AnsiStyles;
 /// <summary>
 /// Provides a collection of 256 ANSI escaped color codes to be used in any string
 /// </summary>
-public class ColorSetter
+public class StyleSetter
 {
     private readonly string[] _colorCodes;
 
@@ -111,7 +111,7 @@ public class ColorSetter
     /// <returns>A <c>AnsiEscaped</c> object set with White color</returns>
     public AnsiEscaped White => this[15];
 
-    public ColorSetter(ColorPlane colorPlane)
+    public StyleSetter(ColorPlane colorPlane)
     {
         _colorCodes = InitializeColorCodes((byte)colorPlane);
     }

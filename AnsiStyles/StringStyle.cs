@@ -29,7 +29,7 @@ public static class StringStyle
     /// string text = $"This{fc[171]} purple warning{reset} is not marked as {red}red";
     /// </code></example>
     /// </summary>
-    public static ColorSetter Foreground { get; } = new(ColorPlane.Foreground);
+    public static StyleSetter Foreground { get; } = new(ColorPlane.Foreground);
 
     /// <summary>
     /// Provides a index-able object with collection of 256 colors that can be used to set the background color in any string
@@ -41,5 +41,5 @@ public static class StringStyle
     /// string text = $"This{bc[171]} purple warning{reset} is not marked as {red}red";
     /// </code></example>
     /// </summary>
-    public static ColorSetter Background { get; } = new(ColorPlane.Background);
+    public static StyleSetter Background { get; } = new(ColorPlane.Background);
 }
