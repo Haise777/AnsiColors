@@ -131,8 +131,8 @@ public class ColorSetter
     /// <param name="text">Text to be rainbomized</param>
     /// <param name="groupCount">Number of chars to be in the same color</param>
     /// <returns>A <c>AnsiEscaped</c> object containing the rainbomized input text</returns>
-    public AnsiEscaped RainbowBright4(string text, int offset = 1)
-        => MakeRainbow(text, offset, 9, 14);
+    public AnsiEscaped RainbowBright4(string text, int groupCount = 1)
+        => MakeRainbow(text, groupCount, 9, 14);
 
     /// <summary>
     /// Prints all the 256 colors to the stdout

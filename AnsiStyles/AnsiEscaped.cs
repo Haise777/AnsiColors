@@ -5,6 +5,9 @@
 /// </summary>
 public class AnsiEscaped
 {
+    /// <summary>
+    /// A ANSI escaped code stored as a string
+    /// </summary>
     public string Code { get; private set; }
 
     public AnsiEscaped(string code)
