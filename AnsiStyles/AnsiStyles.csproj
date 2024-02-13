@@ -5,6 +5,27 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>AnsiStyles</RootNamespace>
-    </PropertyGroup>
+        <Version>0.1.0-beta</Version>
+        <Title>AnsiStyles Colored Console Output</Title>
+        <Authors>Gabriel Shimabucoro</Authors>
+        <Description>Lightweight, simple library that provides a easy and intuitive way for adding color to your console applications, allowing you to add multiple different colors and styles to the same string variable without hassle.</Description>
+        <Copyright>Copyright (c) Gabriel Shimabucoro 2024.</Copyright>
+        <PackageProjectUrl>https://github.com/Haise777/AnsiStyles</PackageProjectUrl>
+        <PackageTags>colored, coloured, output, string, log, console, color, colors, colour, colours, rainbow</PackageTags>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <RepositoryUrl>https://github.com/Haise777/AnsiStyles</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <PackageIcon>logo.png</PackageIcon>
+        <PackageReleaseNotes>First release, product still in testing phase.
 
+-Haise777</PackageReleaseNotes>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <None Include=".pkg/README.md" Pack="true" PackagePath="/"/>
+        <None Include=".pkg/logo.png" Pack="true" PackagePath="/"/>
+    </ItemGroup>
+    
 </Project>
