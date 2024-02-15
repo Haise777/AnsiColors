@@ -22,31 +22,6 @@
     <img src="example1.png" alt="[Example image]" width=1080 align="center">
 </div>
 
-Installation
-----
-
-### NuGet
-
-The latest ~~stable~~ version is available on [NuGet](https://www.nuget.org/packages/AnsiStyles/)
-
-```bash
-dotnet add package AnsiStyles
-```
-
-### From source
-
-Alternatively, you can easily build the package from source if needed
-
-```shell
-git clone https://github.com/Haise777/AnsiStyles
-cd AnsiStyles/AnsiStyles
-dotnet build --configuration Release
-
-# Here you can find the compiled assembly file 'AnsiStyles.dll'
-cd bin/Release/net6.0 
-```
-You can add the compiled assembly to your projects by adding a reference to the assembly file, you can follow [this entry in a Microsoft article](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-add-reference#add-a-reference-to-an-assembly-that-isnt-in-a-project) for more information.
-
 Usage
 ----
 
