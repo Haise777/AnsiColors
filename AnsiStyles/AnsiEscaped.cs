@@ -6,19 +6,24 @@
 public class AnsiEscaped
 {
     /// <summary>
-    /// A ANSI escaped code stored as a string
+    /// A ANSI escaped value stored as a string
     /// </summary>
-    public string Code { get; private set; }
+    public string Value { get; private set; }
 
-    public AnsiEscaped(string code)
+    /// <summary>
+    /// <para>Creates a instance of the object.</para>
+    /// <para>Normally you should let <see cref="StyleGroup"/> create a instance for you.</para>
+    /// </summary>
+    /// <param name="value">The ANSI value to be stored</param>
+    public AnsiEscaped(string value)
     {
-        Code = code;
+        Value = value;
     }
 
     //Styles
-    private AnsiEscaped ApplyStyle(byte sgrCode)
+    private AnsiEscaped ApplyStyle(byte sgrValue)
     {
-        Code = Code.Insert(0, $"{Globals.EscapeCode}[{sgrCode}m");
+        Value = Value.Insert(0, $"{Globals.EscapeValue}[{sgrValue}m");
         return this;
     }
 
@@ -45,27 +50,43 @@ public class AnsiEscaped
     /// </summary>
     /// <returns>Same <c>AnsiEscaped</c> object reference</returns>
     public AnsiEscaped Faint() => ApplyStyle(2);
+    
+    /// <returns>A string containing an ANSI escaped value</returns>
+    public override string ToString() => Value;
 
-    public override string ToString() => Code;
-
+    /// <summary>
     /// Concat two AnsiEscaped instances into a single object.
+    /// </summary>
+    /// <param name="first">left side</param>
+    /// <param name="then">right side</param>
+    /// <returns>A single <c>AnsiEscaped</c> object reference</returns>
     public static AnsiEscaped operator +(AnsiEscaped first, AnsiEscaped then)
     {
-        first.Code += then.Code;
+        first.Value += then.Value;
         return first;
     }
-
+    
+    /// <summary>
     /// Concat a common string with a AnsiEscaped object.
+    /// </summary>
+    /// <param name="first">left side</param>
+    /// <param name="then">right side</param>
+    /// <returns>A single <c>AnsiEscaped</c> object reference</returns>
     public static AnsiEscaped operator +(AnsiEscaped first, string then)
     {
-        first.Code += then;
+        first.Value += then;
         return first;
     }
 
-    /// Concat a common string before the AnsiEscaped code, thus the concatenated string will not be affected by it.
+    /// <summary>
+    /// Concat a common string before the AnsiEscaped value, thus the concatenated string will not be affected by it.
+    /// </summary>
+    /// <param name="first">left side</param>
+    /// <param name="then">right side</param>
+    /// <returns>A single <c>AnsiEscaped</c> object reference</returns>
     public static AnsiEscaped operator +(string first, AnsiEscaped then)
     {
-        then.Code = then.Code.Insert(0, first);
+        then.Value = then.Value.Insert(0, first);
         return then;
     }
 }
