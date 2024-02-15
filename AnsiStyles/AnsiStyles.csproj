@@ -1,11 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net6.0</TargetFramework>
+        <TargetFrameworks>net6.0;net7.0;net8.0</TargetFrameworks>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <RootNamespace>AnsiStyles</RootNamespace>
-        <Version>1.0</Version>
+        <Version>1.0.1</Version>
         <Title>AnsiStyles Colored Console Output</Title>
         <Authors>Gabriel Shimabucoro</Authors>
         <Description>Lightweight, simple library that provides an easy and intuitive way for adding color to your console applications, allowing you to add multiple different colors and styles to the same string variable without hassle.</Description>
@@ -18,14 +18,12 @@
         <PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <PackageIcon>logo.png</PackageIcon>
-        <PackageReleaseNotes>First release, if you have any problems, please feel free to contact me.</PackageReleaseNotes>
+        <PackageReleaseNotes>Added direct support for higher versions of .NET, if you have any problems, feel free to contact me.</PackageReleaseNotes>
     </PropertyGroup>
     
     <ItemGroup>
         <None Include=".pkg/README.md" Pack="true" PackagePath="/"/>
         <None Include=".pkg/logo.png" Pack="true" PackagePath="/"/>
-        <None Include=".pkg/banner.png" Pack="true" PackagePath="/"/>
-        <None Include=".pkg/example1.png" Pack="true" PackagePath="/"/>
     </ItemGroup>
     
 </Project>

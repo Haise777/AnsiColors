@@ -5,7 +5,7 @@ Lightweight, simple library that provides an easy and intuitive way for adding c
 Comes with 256 colors and 4 font styles for both background and foreground.  
   
 
-![Static Badge](https://img.shields.io/badge/.NET-6.0-%233502b8?style=flat-square) ![NuGet Version](https://img.shields.io/nuget/v/AnsiStyles?style=flat-square&logo=nuget&color=%23007bc2) ![NuGet Downloads](https://img.shields.io/nuget/dt/AnsiStyles?style=flat-square&logo=nuget&color=%230064c2) ![GitHub License](https://img.shields.io/github/license/Haise777/OPZBot?style=flat-square&color=%23a38802)  
+![Static Badge](https://img.shields.io/badge/.NET-6.0+-%233502b8?style=flat-square) ![NuGet Version](https://img.shields.io/nuget/v/AnsiStyles?style=flat-square&logo=nuget&color=%23007bc2) ![NuGet Downloads](https://img.shields.io/nuget/dt/AnsiStyles?style=flat-square&logo=nuget&color=%230064c2) ![GitHub License](https://img.shields.io/github/license/Haise777/OPZBot?style=flat-square&color=%23a38802)  
   
   
 Usage
