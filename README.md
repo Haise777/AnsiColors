@@ -8,13 +8,19 @@
 <h4 align="center">Comes with 256 colors and 4 font styles for both background and foreground.</h4>
 
 <div align="center">
-  
+    
   <a href="">![Static Badge](https://img.shields.io/badge/.NET-+6.0-%233502b8?style=flat-square)</a>
   <a href="https://www.nuget.org/packages/AnsiStyles/">![NuGet Version](https://img.shields.io/nuget/v/AnsiStyles?style=flat-square&logo=nuget&color=%23007bc2)</a>
   <a href="">![NuGet Downloads](https://img.shields.io/nuget/dt/AnsiStyles?style=flat-square&logo=nuget&color=%230064c2)</a>
   <a href="">![GitHub License](https://img.shields.io/github/license/Haise777/OPZBot?style=flat-square&color=%23a38802)</a>
-  
 </div>
+
+<p align="center">
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#support">Support</a>
+</p>
 
 <br>
 <br>
