@@ -2,5 +2,5 @@
 
 internal static class Globals
 {
-    public const string EscapeCode = "\x1B";
+    public const string EscapeValue = "\x1B";
 }
