@@ -4,7 +4,7 @@
 </div>
 
 <h2 align="center">AnsiStyles</h2>
-<h4 align="center">Lightweight, simple library that provides a easy and intuitive way for adding color to your console applications, allowing you to add multiple different colors and styles to the same string variable.</h4>
+<h4 align="center">Lightweight, simple library that provides an easy and intuitive way for adding color to your console applications, allowing you to add multiple different colors and styles to the same string variable.</h4>
 <h4 align="center">Comes with 256 colors and 4 font styles for both background and foreground.</h4>
 
 <div align="center">
