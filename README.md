@@ -42,7 +42,7 @@ git clone https://github.com/Haise777/AnsiStyles
 cd AnsiStyles/AnsiStyles
 dotnet build --configuration Release
 
-# Here you can find the compiled assembly file 'AnsiStyles'
+# Here you can find the compiled assembly file 'AnsiStyles.dll'
 cd bin/Release/net6.0 
 ```
 You can add the compiled assembly to your projects by adding a reference to the assembly file, you can follow [this entry in a Microsoft article](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-add-reference#add-a-reference-to-an-assembly-that-isnt-in-a-project) for more information.

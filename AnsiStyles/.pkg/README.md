@@ -1,20 +1,56 @@
 <div align="center">
     <br>
-        <img src=".github/banner.png" alt="[Banner image]" width=600 align="center">
+    <img src="banner.png" alt="[Banner image]" width=600 align="center">
 </div>
 
 <h2 align="center">AnsiStyles</h2>
-<p align="center">This lightweight, simple library provides a easy and intuitive way for adding color to your console applications, allowing you to add multiple different colors and styles to the same string variable.</p>
-<p align="center">[shields] [shields] [shields] [shields]</p>
+<h4 align="center">Lightweight, simple library that provides a easy and intuitive way for adding color to your console applications, allowing you to add multiple different colors and styles to the same string variable.</h4>
+<h4 align="center">Comes with 256 colors and 4 font styles for both background and foreground.</h4>
 
 <div align="center">
-        <img src=".github/example1.png" alt="[Example image]" width=1080 align="center">
-        <br>
+
+<a href="">![Static Badge](https://img.shields.io/badge/.NET-6.0-%233502b8?style=flat-square)</a>
+<a href="https://www.nuget.org/packages/AnsiStyles/">![NuGet Version](https://img.shields.io/nuget/v/AnsiStyles?style=flat-square&logo=nuget&color=%23007bc2)</a>
+<a href="">![NuGet Downloads](https://img.shields.io/nuget/dt/AnsiStyles?style=flat-square&logo=nuget&color=%230064c2)</a>
+<a href="">![GitHub License](https://img.shields.io/github/license/Haise777/OPZBot?style=flat-square&color=%23a38802)</a>
+
 </div>
+
+<br>
+<br>
+<div align="center">
+    <img src="example1.png" alt="[Example image]" width=1080 align="center">
+</div>
+
+Installation
+----
+
+### NuGet
+
+The latest ~~stable~~ version is available on [NuGet](https://www.nuget.org/packages/AnsiStyles/)
+
+```bash
+dotnet add package AnsiStyles
+```
+
+### From source
+
+Alternatively, you can easily build the package from source if needed
+
+```shell
+git clone https://github.com/Haise777/AnsiStyles
+cd AnsiStyles/AnsiStyles
+dotnet build --configuration Release
+
+# Here you can find the compiled assembly file 'AnsiStyles.dll'
+cd bin/Release/net6.0 
+```
+You can add the compiled assembly to your projects by adding a reference to the assembly file, you can follow [this entry in a Microsoft article](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-add-reference#add-a-reference-to-an-assembly-that-isnt-in-a-project) for more information.
 
 Usage
 ----
 
+Here's a simple code demonstrating all you need to know about the intended use case of this library.
 ```csharp
 var rs = StringStyle.Reset;
 var fc = StringStyle.Foreground;
@@ -44,40 +80,15 @@ fc.ColorTest(); //prints out all the available colors codes
 bc.ColorTest();
 ```
 
-Installation
-----
-
-### NuGet
-
-The latest stable version is available on [NuGet](https://www.nuget.org/)
-
-```bash
-dotnet add package AnsiStyles
-```
-
-### From source
-
-Alternatively, you can easily build from source if needed
-
-```shell
-git clone https://github.com/Haise777/AnsiStyles
-cd AnsiStyles/AnsiStyles
-dotnet build --configuration Release
-
-# Here you can find the compiled assembly file 'AnsiStyles'
-cd bin/Release/net6.0 
-```
-You can add the compiled assembly to your projects by adding a reference to the assembly file, you can follow [this entry in a Microsoft article](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-add-reference#add-a-reference-to-an-assembly-that-isnt-in-a-project) for more information.
-
 Contributing
 ----
-### Feel free to contribute  
+### Feel free to contribute
 - Just fork and clone the repository
-- Then commit and pull request only for the `dev` branch. 
+- Then commit and pull request only for the `dev` branch.
 
 Support
 ----
-- If you encouter a bug or would like to request a feature, [please submit an issue](https://github.com/Haise777/AnsiStyles/issues/new).  
+- If you encouter a bug or would like to request a feature, [please submit an issue](https://github.com/Haise777/AnsiStyles/issues/new).
 - For any other question that is not related to bugs or feature, feel free to contact me.
 
 ---
